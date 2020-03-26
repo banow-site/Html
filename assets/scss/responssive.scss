@@ -1,0 +1,49 @@
+@media only screen and (max-width: 1170px) {
+.containers{
+	width: 920px;
+}
+.socail-contact{
+	display: none;
+}
+}
+
+@media only screen and (max-width: 920px) {
+.containers{
+	width: 720px;
+}
+
+
+}
+
+@media only screen and (max-width: 720px) {
+
+nav .main-menu{
+	display: none;
+}
+
+.hamburger {
+    display: block;
+    border: 1px solid #333;
+    margin: 0 16px 0 0;
+    cursor:pointer;
+    right: 0px;
+    top: 12px;
+    position: absolute;
+		span{
+		    height: 1px;
+		    width: 26px;
+		    margin: 7px 7px;
+		    background: #333;
+		    content: " ";
+		    display: block;
+
+		}
+
+}
+
+
+
+
+
+}
+

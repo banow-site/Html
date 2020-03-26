@@ -1,0 +1,31 @@
+section.newslatter {
+    background: $primary_color;
+}
+
+input[type="text"] {
+    border: none;
+    border-radius: 50px 0 0 50px;
+    padding: 0 44px; 
+    width: 430px;
+    height: 60px;
+}
+
+.subscribe-submit {
+    padding: 20px;
+
+   a {
+    border-radius: 0 50px  50px 0;
+    width: 200px;
+    height: 60px;
+    display: inline-block;
+    line-height: 60px;
+   }
+}
+
+.section-title.newslatter-section-title {
+    h2,p{
+            color:$white_color;
+        }
+}
+
+

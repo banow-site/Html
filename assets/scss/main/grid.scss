@@ -1,0 +1,20 @@
+//grid system
+$containers:1170px;
+.containers{
+	width:$containers;
+	margin:auto;
+}
+.rows{
+	display:flex;
+}
+$num:1;
+
+@while $num <13
+
+{
+    $width:percentage($num/12);
+    .w-#{$num} {
+       width:$width;
+    }
+    $num: $num + 1;
+}

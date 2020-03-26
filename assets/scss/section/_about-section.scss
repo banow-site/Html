@@ -1,0 +1,54 @@
+
+/*about section start*/
+#work-process-area{
+	position: relative;
+}
+.hover-over-content{
+    background-size: cover;
+    width: 80%;
+    min-height: 235px !important;
+    background-position: center;
+    background: no-repeat;
+    margin: 0 0 0 50px;
+    h4{
+    color: $white_color;
+    width: 195px;
+    border-radius: 5px;
+    z-index: 1;
+    padding: 20px 0 20px 20px;
+    position: absolute;
+    top:70px;
+    cursor: pointer;
+    left: 0;
+    transition:1s;
+    content: " ";
+      &.first{
+        background: rgb(23,206,255, .8);
+      }
+
+      &.second{
+        background: rgb(208,58,255, .8);
+      }
+
+      &.third{
+        background: rgb(255,89,129, .8);
+      }
+
+      &:hover{
+        margin: 0 0 0 68px;
+      }
+   }
+}
+
+.work-press-images {
+  z-index: -1 !important;
+}
+
+section#about-section{
+    padding: 130px;
+    .about-left-content {
+      padding: 0 0 120px 0;
+  }
+}
+/*about section end*/
+
